@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: LearnIOT-Bluemix
+  host: LearnIOT-Bluemix
+  disk_quota: 1024M
+  services:
+  - LearnIOT-Bluemix-cloudantNoSQLDB
+  - LearnIOT-Bluemix-iotf-service
